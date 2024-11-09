@@ -1,11 +1,11 @@
-package com.currency.telegram.NpbService;
+package com.currency.telegram.services;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
 
-import com.currency.telegram.Repository.ExchangeRatesHistory;
-import com.currency.telegram.Repository.ExchangeRatesHistoryRepository;
+import com.currency.telegram.entity.ExchangeRatesHistory;
+import com.currency.telegram.repository.ExchangeRatesHistoryRepository;
 
 import java.util.List;
 import java.time.LocalDate;

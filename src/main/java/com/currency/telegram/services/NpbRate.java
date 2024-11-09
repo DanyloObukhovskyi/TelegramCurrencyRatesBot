@@ -1,4 +1,4 @@
-package com.currency.telegram.NpbService;
+package com.currency.telegram.services;
 
 public class NpbRate {
     private String currency;

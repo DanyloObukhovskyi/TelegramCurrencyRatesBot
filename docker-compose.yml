@@ -12,8 +12,6 @@ services:
       - "33061:3306"
     networks:
       - spring-app-network
-    volumes:
-      - mysql-data:/var/lib/mysql
   spring-app:
     build:
       context: .
@@ -31,6 +29,3 @@ services:
 networks:
   spring-app-network:
     driver: bridge
-
-volumes:
-  mysql-data:

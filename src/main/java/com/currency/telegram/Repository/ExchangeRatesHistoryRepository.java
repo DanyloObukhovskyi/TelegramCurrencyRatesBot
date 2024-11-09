@@ -1,6 +1,8 @@
-package com.currency.telegram.Repository;
+package com.currency.telegram.repository;
 
 import org.springframework.data.repository.CrudRepository;
+
+import com.currency.telegram.entity.ExchangeRatesHistory;
 
 import java.time.LocalDate;
 

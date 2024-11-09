@@ -1,4 +1,4 @@
-package com.currency.telegram.NpbService;
+package com.currency.telegram.services;
 
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
